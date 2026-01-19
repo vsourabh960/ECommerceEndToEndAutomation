@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-19T10:20:49 IST" name="Suite" finished-at="2026-01-19T10:21:24 IST" duration-ms="35072">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationsTest.loginErrorValidation()[pri:0, instance:bluebeast.tests.ErrorValidationsTest@15f47664]" name="loginErrorValidation" class="bluebeast.tests.ErrorValidationsTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:bluebeast.tests.SubmitOrderTest@49b2a47d]" name="submitOrder" class="bluebeast.tests.SubmitOrderTest"/>
+      </group> <!-- purchase -->
+    </groups>
+    <test started-at="2026-01-19T10:20:49 IST" name="Error Validations Test" finished-at="2026-01-19T10:21:12 IST" duration-ms="22591">
+      <class name="bluebeast.tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:bluebeast.tests.ErrorValidationsTest@15f47664]" started-at="2026-01-19T10:20:49 IST" name="launchApplication" finished-at="2026-01-19T10:20:58 IST" duration-ms="8613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginErrorValidation()[pri:0, instance:bluebeast.tests.ErrorValidationsTest@15f47664]" started-at="2026-01-19T10:20:58 IST" name="loginErrorValidation" finished-at="2026-01-19T10:21:00 IST" duration-ms="1984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:bluebeast.tests.ErrorValidationsTest@15f47664]" started-at="2026-01-19T10:21:00 IST" name="tearDown" finished-at="2026-01-19T10:21:01 IST" duration-ms="671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:bluebeast.tests.ErrorValidationsTest@15f47664]" started-at="2026-01-19T10:21:01 IST" name="launchApplication" finished-at="2026-01-19T10:21:05 IST" duration-ms="4828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="productErrorValidation()[pri:0, instance:bluebeast.tests.ErrorValidationsTest@15f47664]" started-at="2026-01-19T10:21:05 IST" name="productErrorValidation" finished-at="2026-01-19T10:21:11 IST" duration-ms="5787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:bluebeast.tests.ErrorValidationsTest@15f47664]" started-at="2026-01-19T10:21:11 IST" name="tearDown" finished-at="2026-01-19T10:21:12 IST" duration-ms="502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- bluebeast.tests.ErrorValidationsTest -->
+    </test> <!-- Error Validations Test -->
+    <test started-at="2026-01-19T10:20:49 IST" name="Submit Order Test" finished-at="2026-01-19T10:21:24 IST" duration-ms="35072">
+      <class name="bluebeast.tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:bluebeast.tests.SubmitOrderTest@49b2a47d]" started-at="2026-01-19T10:20:50 IST" name="launchApplication" finished-at="2026-01-19T10:20:58 IST" duration-ms="7748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:bluebeast.tests.SubmitOrderTest@49b2a47d]" started-at="2026-01-19T10:20:58 IST" name="submitOrder" data-provider="getData" finished-at="2026-01-19T10:21:07 IST" duration-ms="8762" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Gaurav324@, product=ZARA COAT 3, email=gaurav324@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:bluebeast.tests.SubmitOrderTest@49b2a47d]" started-at="2026-01-19T10:21:07 IST" name="tearDown" finished-at="2026-01-19T10:21:08 IST" duration-ms="960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:bluebeast.tests.SubmitOrderTest@49b2a47d]" started-at="2026-01-19T10:21:08 IST" name="launchApplication" finished-at="2026-01-19T10:21:12 IST" duration-ms="4260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:bluebeast.tests.SubmitOrderTest@49b2a47d]" started-at="2026-01-19T10:21:12 IST" name="submitOrder" data-provider="getData" finished-at="2026-01-19T10:21:18 IST" duration-ms="6392" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Rahul@1725, product=ADIDAS ORIGINAL, email=saurabh12342@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:bluebeast.tests.SubmitOrderTest@49b2a47d]" started-at="2026-01-19T10:21:18 IST" name="tearDown" finished-at="2026-01-19T10:21:19 IST" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:bluebeast.tests.SubmitOrderTest@49b2a47d]" started-at="2026-01-19T10:21:19 IST" name="launchApplication" finished-at="2026-01-19T10:21:21 IST" duration-ms="2649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyOrderHistory()[pri:0, instance:bluebeast.tests.SubmitOrderTest@49b2a47d]" started-at="2026-01-19T10:21:21 IST" name="verifyOrderHistory" finished-at="2026-01-19T10:21:23 IST" depends-on-methods="bluebeast.tests.SubmitOrderTest.submitOrder" duration-ms="2164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrderHistory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:bluebeast.tests.SubmitOrderTest@49b2a47d]" started-at="2026-01-19T10:21:23 IST" name="tearDown" finished-at="2026-01-19T10:21:24 IST" duration-ms="704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- bluebeast.tests.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>

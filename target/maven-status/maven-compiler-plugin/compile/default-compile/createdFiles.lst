@@ -1,0 +1,8 @@
+bluebeast\pageobjects\ConfirmationPage.class
+bluebeast\pageobjects\ProductCatalogue.class
+bluebeast\pageobjects\CheckOutPage.class
+bluebeast\pageobjects\OrderPage.class
+bluebeast\pageobjects\LandingPage.class
+bluebeast\abstractcomponents\AbstractComponent.class
+bluebeast\pageobjects\CartPage.class
+bluebeast\resources\ExtentReporterNG.class
