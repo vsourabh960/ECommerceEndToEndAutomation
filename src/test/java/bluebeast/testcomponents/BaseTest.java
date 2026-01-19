@@ -26,7 +26,7 @@ import bluebeast.pageobjects.LandingPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
-	
+	// This base class
 	public WebDriver driver;
 	protected LandingPage landingPage;
 	
